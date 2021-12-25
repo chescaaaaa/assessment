@@ -52,41 +52,39 @@ img {
   align-items: center;
 }
 
-@media (max-width:900px){
-    a{
-        padding: 10px 20px;
-        margin: 0 auto;
-        align-items: center;
-        border-left: 2px solid rgba(0, 0, 0, 0.308);
-        font-size: 20px;
-        text-transform: capitalize;
-    }
-    header{
-        background-color: #f4d19b;
-        padding: 20px;
-        width: 100vw;
-    }
+@media (max-width: 900px) {
+  a {
+    padding: 10px 20px;
+    margin: 0 auto;
+    align-items: center;
+    border-left: 2px solid rgba(0, 0, 0, 0.308);
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  header {
+    background-color: #f4d19b;
+    padding: 20px;
+    width: 100vw;
+  }
 }
 
-.gallery{
+.gallery {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(3,1fr);
-gap: 10px;
-
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .fixed {
   position: fixed;
   width: 300px;
-  background-color:#fdfce5a6;
+  background-color: #fdfce5a6;
 }
 
-.land{
+.land {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(4,1fr );
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   gap: 15px;
   align-items: center;
 }
-
