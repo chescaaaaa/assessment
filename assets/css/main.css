@@ -1,0 +1,85 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css";
+@import url(./typography.css);
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+header {
+  background-color: #f4d19b;
+  padding: 50px;
+  width: 100vw;
+}
+
+body {
+  background-color: #fdfce5;
+}
+
+nav {
+  text-align: center;
+}
+
+a {
+  padding: 20px 40px;
+  margin: 0 auto;
+  align-items: center;
+  border-left: 2px solid rgba(0, 0, 0, 0.308);
+}
+
+a:hover {
+  border: 2px solid #ffe3bad5;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1700px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  align-items: center;
+}
+
+@media (max-width:900px){
+    a{
+        padding: 10px 20px;
+        margin: 0 auto;
+        align-items: center;
+        border-left: 2px solid rgba(0, 0, 0, 0.308);
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    header{
+        background-color: #f4d19b;
+        padding: 20px;
+        width: 100vw;
+    }
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+gap: 10px;
+
+}
+
+.fixed {
+  position: fixed;
+  top: 10;
+  width: 300px;
+  background-color:#fdfce5a6;
+}
+
