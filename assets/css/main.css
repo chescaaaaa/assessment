@@ -88,3 +88,22 @@ img {
   gap: 15px;
   align-items: center;
 }
+
+.list h4{
+  margin: 0 0 15px 15px;
+}
+
+#inputElement{
+  margin: 0 0 15px 15px;
+  padding: 5px;
+}
+
+.btn{
+  padding: 4px;
+  margin: 3px;
+}
+
+#myList{
+  margin: 0 0 15px 15px;
+  padding: 5px;
+}

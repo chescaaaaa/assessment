@@ -60,3 +60,26 @@ a {
   margin: 5px;
   font-size: 20px;
 }
+
+.list h4{
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+}
+
+#inputElement{
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn{
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#myList{
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin: 3px;
+  line-height: 20px;
+}
