@@ -29,7 +29,7 @@ a {
   text-transform: capitalize;
 }
 
-.fixed h2{
+.fixed h2 {
   font-weight: 2000;
   font-style: bold;
   font-style: italic;
@@ -47,7 +47,7 @@ a {
   text-transform: capitalize;
 }
 
-.scape h5{ 
+.scape h5 {
   font-size: 26px;
   line-height: 35px;
   margin: 5px;
@@ -56,28 +56,28 @@ a {
   font-style: italic;
 }
 
-.scape p{
+.scape p {
   margin: 5px;
   font-size: 20px;
 }
 
-.list h4{
+.list h4 {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   line-height: 30px;
 }
 
-#inputElement{
+#inputElement {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
 }
 
-.btn{
+.btn {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
 }
 
-#myList{
+#myList {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   margin: 3px;
